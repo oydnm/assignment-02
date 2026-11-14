@@ -1,8 +1,25 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  color: #222;
 }
 
-a {
-  color: #00B7FF;
+main { 
+  min-height: 70vh;
+}
+h1 {
+  color: #123c69;
+
+}
+
+.card {
+  transform: translateY(-5px);
+
+}
+footer a {
+  text-decoration: none;
+}
+footer a:hover {
+  text-decoration: underline;
 }
